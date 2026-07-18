@@ -1,0 +1,9 @@
+COHORT_BOOTSTRAP_THRESHOLD_MONTHS = 3
+OVER_LEVERAGE_RATIO_THRESHOLD = 0.5
+HIGH_SEVERITY_STRESS_PROBABILITY = 0.6
+RISK_SEVERITIES = ('low', 'watch', 'high')
+FLAG_TYPES = ('seasonal_normal', 'market_shock', 'climate_shock', 'personal_shock', 'over_leverage')
+NOTIFIABLE_FLAG_TYPES = ('market_shock', 'climate_shock', 'personal_shock', 'over_leverage')
+SECTORS = ('dairy', 'poultry', 'food_processing', 'handicrafts', 'retail')
+ROLES = ('enterprise_owner', 'field_officer', 'hq_risk_officer', 'fpo_officebearer', 'admin')
+CREDIT_READINESS_STAGES = ('grant_dependent', 'emerging', 'loan_ready')
